@@ -1,3 +1,3 @@
-module.exports = () => {
-	console.log("Hello from server");
-};
+const commonFunction = require("@walnut/common");
+
+commonFunction();

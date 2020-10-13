@@ -2,5 +2,9 @@
 	"name": "@cici/server",
 	"version": "1.0.0",
 	"main": "index.js",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"@walnut/common": "^1.0.1",
+		"graphql-yoga": "^1.14.7"
+	}
 }
