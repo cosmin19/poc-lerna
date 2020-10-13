@@ -1,6 +1,9 @@
 {
 	"name": "poc-lerna",
 	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
 	"devDependencies": {
 		"lerna": "^3.22.1"
 	},
