@@ -1,0 +1,12 @@
+{
+	"name": "poc-lerna",
+	"private": true,
+	"devDependencies": {
+		"lerna": "^3.22.1"
+	},
+	"scripts": {
+		"test": "lerna run test --since",
+		"new-version": "lerna version --conventional-commits --yes",
+		"diff": "lerna diff"
+	}
+}
