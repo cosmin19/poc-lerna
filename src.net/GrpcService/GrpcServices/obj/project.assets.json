@@ -2,12 +2,8 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "CloverHeap.POC.Lerna.Grpc.Protos/1.0.0": {
+      "CloverHeap.POC.Self.Lerna.Grpc.Protos/1.0.0": {
         "type": "package",
-        "dependencies": {
-          "Google.Protobuf": "3.13.0",
-          "Grpc.Core": "2.32.0"
-        },
         "compile": {
           "lib/netstandard2.1/GrpcProtos.dll": {}
         },
@@ -72,45 +68,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "Grpc.Core/2.32.0": {
-        "type": "package",
-        "dependencies": {
-          "Grpc.Core.Api": "2.32.0",
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/Grpc.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Grpc.Core.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/linux/native/libgrpc_csharp_ext.x64.so": {
-            "assetType": "native",
-            "rid": "linux"
-          },
-          "runtimes/linux/native/libgrpc_csharp_ext.x86.so": {
-            "assetType": "native",
-            "rid": "linux"
-          },
-          "runtimes/osx/native/libgrpc_csharp_ext.x64.dylib": {
-            "assetType": "native",
-            "rid": "osx"
-          },
-          "runtimes/osx/native/libgrpc_csharp_ext.x86.dylib": {
-            "assetType": "native",
-            "rid": "osx"
-          },
-          "runtimes/win/native/grpc_csharp_ext.x64.dll": {
-            "assetType": "native",
-            "rid": "win"
-          },
-          "runtimes/win/native/grpc_csharp_ext.x86.dll": {
-            "assetType": "native",
-            "rid": "win"
-          }
-        }
       },
       "Grpc.Core.Api/2.32.0": {
         "type": "package",
@@ -1825,14 +1782,14 @@
     }
   },
   "libraries": {
-    "CloverHeap.POC.Lerna.Grpc.Protos/1.0.0": {
-      "sha512": "vqCyUGK2pgJzmzS/TkBSkjhKXawESHURqm2XkTvuu61IKwCqxzkTZrTlEES2Sf4RYgdEZRmBkohgYyhABAFlIA==",
+    "CloverHeap.POC.Self.Lerna.Grpc.Protos/1.0.0": {
+      "sha512": "Mlobx6jib+1q9aKH3sLvrzSxvlp/I6C+YQXnBmZl6N0gRakAAq/ki6Vs/ux2QxI1Xd5XCFPMgeBU8lYhxOe65Q==",
       "type": "package",
-      "path": "cloverheap.poc.lerna.grpc.protos/1.0.0",
+      "path": "cloverheap.poc.self.lerna.grpc.protos/1.0.0",
       "files": [
         ".nupkg.metadata",
-        "cloverheap.poc.lerna.grpc.protos.1.0.0.nupkg.sha512",
-        "cloverheap.poc.lerna.grpc.protos.nuspec",
+        "cloverheap.poc.self.lerna.grpc.protos.1.0.0.nupkg.sha512",
+        "cloverheap.poc.self.lerna.grpc.protos.nuspec",
         "lib/netstandard2.1/GrpcProtos.dll"
       ]
     },
@@ -1904,40 +1861,6 @@
         "lib/netcoreapp3.0/Grpc.AspNetCore.Server.ClientFactory.pdb",
         "lib/netcoreapp3.0/Grpc.AspNetCore.Server.ClientFactory.xml",
         "packageIcon.png"
-      ]
-    },
-    "Grpc.Core/2.32.0": {
-      "sha512": "JDjz3zcOq9QTgC/xg6JnynSbe2CpyzVHWBqIOMYbbe/FmW+TCfkrwAw1mgO928Sa605dVmJOm0ByGgNd5YvX8Q==",
-      "type": "package",
-      "path": "grpc.core/2.32.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/MonoAndroid10/Grpc.Core.targets",
-        "build/Xamarin.iOS10/Grpc.Core.targets",
-        "build/net45/Grpc.Core.targets",
-        "grpc.core.2.32.0.nupkg.sha512",
-        "grpc.core.nuspec",
-        "lib/net45/Grpc.Core.dll",
-        "lib/net45/Grpc.Core.pdb",
-        "lib/net45/Grpc.Core.xml",
-        "lib/netstandard1.5/Grpc.Core.dll",
-        "lib/netstandard1.5/Grpc.Core.pdb",
-        "lib/netstandard1.5/Grpc.Core.xml",
-        "lib/netstandard2.0/Grpc.Core.dll",
-        "lib/netstandard2.0/Grpc.Core.pdb",
-        "lib/netstandard2.0/Grpc.Core.xml",
-        "native/android/arm64-v8a/libgrpc_csharp_ext.so",
-        "native/android/armeabi-v7a/libgrpc_csharp_ext.so",
-        "native/android/x86/libgrpc_csharp_ext.so",
-        "native/ios/universal/libgrpc.a",
-        "native/ios/universal/libgrpc_csharp_ext.a",
-        "runtimes/linux/native/libgrpc_csharp_ext.x64.so",
-        "runtimes/linux/native/libgrpc_csharp_ext.x86.so",
-        "runtimes/osx/native/libgrpc_csharp_ext.x64.dylib",
-        "runtimes/osx/native/libgrpc_csharp_ext.x86.dylib",
-        "runtimes/win/native/grpc_csharp_ext.x64.dll",
-        "runtimes/win/native/grpc_csharp_ext.x86.dll"
       ]
     },
     "Grpc.Core.Api/2.32.0": {
@@ -6261,7 +6184,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CloverHeap.POC.Lerna.Grpc.Protos >= 1.0.0",
+      "CloverHeap.POC.Self.Lerna.Grpc.Protos >= 1.0.0",
       "Grpc.AspNetCore >= 2.32.0",
       "Grpc.Core.Api >= 2.32.0",
       "Grpc.Net.Client >= 2.32.0",
@@ -6308,7 +6231,7 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "CloverHeap.POC.Lerna.Grpc.Protos": {
+          "CloverHeap.POC.Self.Lerna.Grpc.Protos": {
             "target": "Package",
             "version": "[1.0.0, )"
           },

@@ -1,9 +1,0 @@
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcProtos\bin\Debug\netstandard2.1\GrpcProtos.deps.json
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcProtos\bin\Debug\netstandard2.1\GrpcProtos.dll
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcProtos\bin\Debug\netstandard2.1\GrpcProtos.pdb
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcProtos\obj\Debug\netstandard2.1\GrpcProtos.AssemblyInfoInputs.cache
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcProtos\obj\Debug\netstandard2.1\GrpcProtos.AssemblyInfo.cs
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcProtos\obj\Debug\netstandard2.1\GrpcProtos.csproj.CoreCompileInputs.cache
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcProtos\obj\Debug\netstandard2.1\GrpcProtos.dll
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcProtos\obj\Debug\netstandard2.1\GrpcProtos.pdb
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcProtos\obj\Debug\netstandard2.1\GrpcProtos.csprojAssemblyReference.cache

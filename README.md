@@ -1,1 +1,1 @@
-# poc-lerna
+https://github.com/namely/docker-protoc

@@ -2,12 +2,8 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "CloverHeap.POC.Lerna.Grpc.Protos/1.0.0": {
+      "CloverHeap.POC.Self.Lerna.Grpc.Protos/1.0.0": {
         "type": "package",
-        "dependencies": {
-          "Google.Protobuf": "3.13.0",
-          "Grpc.Core": "2.32.0"
-        },
         "compile": {
           "lib/netstandard2.1/GrpcProtos.dll": {}
         },
@@ -113,14 +109,14 @@
     }
   },
   "libraries": {
-    "CloverHeap.POC.Lerna.Grpc.Protos/1.0.0": {
-      "sha512": "vqCyUGK2pgJzmzS/TkBSkjhKXawESHURqm2XkTvuu61IKwCqxzkTZrTlEES2Sf4RYgdEZRmBkohgYyhABAFlIA==",
+    "CloverHeap.POC.Self.Lerna.Grpc.Protos/1.0.0": {
+      "sha512": "Mlobx6jib+1q9aKH3sLvrzSxvlp/I6C+YQXnBmZl6N0gRakAAq/ki6Vs/ux2QxI1Xd5XCFPMgeBU8lYhxOe65Q==",
       "type": "package",
-      "path": "cloverheap.poc.lerna.grpc.protos/1.0.0",
+      "path": "cloverheap.poc.self.lerna.grpc.protos/1.0.0",
       "files": [
         ".nupkg.metadata",
-        "cloverheap.poc.lerna.grpc.protos.1.0.0.nupkg.sha512",
-        "cloverheap.poc.lerna.grpc.protos.nuspec",
+        "cloverheap.poc.self.lerna.grpc.protos.1.0.0.nupkg.sha512",
+        "cloverheap.poc.self.lerna.grpc.protos.nuspec",
         "lib/netstandard2.1/GrpcProtos.dll"
       ]
     },
@@ -306,7 +302,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CloverHeap.POC.Lerna.Grpc.Protos >= 1.0.0",
+      "CloverHeap.POC.Self.Lerna.Grpc.Protos >= 1.0.0",
       "Google.Protobuf >= 3.13.0",
       "Grpc >= 2.32.0",
       "Grpc.Tools >= 2.32.0"
@@ -350,7 +346,7 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "CloverHeap.POC.Lerna.Grpc.Protos": {
+          "CloverHeap.POC.Self.Lerna.Grpc.Protos": {
             "target": "Package",
             "version": "[1.0.0, )"
           },

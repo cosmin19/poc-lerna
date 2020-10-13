@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MNyUOEISJPHFXlhaaY1Q07K0fVPfWJbngj+Te1Lpm/8FmI3O93Uib1a0Zx8SOP4h1fSC2PR4kbjksIzLTTF6rg==",
+  "dgSpecHash": "PgWHuySJQzYG/rtHJtBDcpu+oIJu8fNoQ23eVRFuuebx8NObBo8+d/LfOGjtfPkp2M4jZGdQ1SAif5/+CbaltA==",
   "success": true,
   "projectFilePath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcClient\\GrpcClient.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cosmi\\.nuget\\packages\\cloverheap.poc.lerna.grpc.protos\\1.0.0\\cloverheap.poc.lerna.grpc.protos.1.0.0.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\cloverheap.poc.self.lerna.grpc.protos\\1.0.0\\cloverheap.poc.self.lerna.grpc.protos.1.0.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\google.protobuf\\3.13.0\\google.protobuf.3.13.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\grpc\\2.32.0\\grpc.2.32.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\grpc.core\\2.32.0\\grpc.core.2.32.0.nupkg.sha512",

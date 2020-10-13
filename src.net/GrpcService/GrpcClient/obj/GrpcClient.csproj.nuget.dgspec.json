@@ -39,7 +39,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "CloverHeap.POC.Lerna.Grpc.Protos": {
+            "CloverHeap.POC.Self.Lerna.Grpc.Protos": {
               "target": "Package",
               "version": "[1.0.0, )"
             },

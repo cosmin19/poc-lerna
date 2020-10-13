@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<PackageId>TEMPORARY_ID</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Cosmin Crisan</Authors>
+		<Company>CloverHeap</Company>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Google.Protobuf" Version="3.13.0" />
+		<PackageReference Include="Grpc.Core" Version="2.31.0" />
+	</ItemGroup>
+
+</Project>

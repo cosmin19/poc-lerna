@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CloverHeap.POC.Lerna.Grpc.Protos" Version="1.0.0" />
+    <PackageReference Include="CloverHeap.POC.Self.Lerna.Grpc.Protos" Version="1.0.0" />
     <PackageReference Include="Grpc" Version="2.32.0" />
     <PackageReference Include="Google.Protobuf" Version="3.13.0" />
     <PackageReference Include="Grpc.Tools" Version="2.32.0">

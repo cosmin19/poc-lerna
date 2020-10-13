@@ -1,0 +1,11 @@
+{
+	"name": "@cici/services",
+	"version": "1.0.0",
+	"license": "MIT",
+	"dependencies": {
+		"@cici/common": "^1.0.0"
+	},
+	"protoDependencies": [
+		"common/protos"
+	]
+}

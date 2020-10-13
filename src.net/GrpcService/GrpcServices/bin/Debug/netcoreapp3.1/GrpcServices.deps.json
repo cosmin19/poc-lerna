@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "GrpcServices/1.0.0": {
         "dependencies": {
-          "CloverHeap.POC.Lerna.Grpc.Protos": "1.0.0",
+          "CloverHeap.POC.Self.Lerna.Grpc.Protos": "1.0.0",
           "Grpc.AspNetCore": "2.32.0",
           "Grpc.Core.Api": "2.32.0",
           "Grpc.Net.Client": "2.32.0",
@@ -20,11 +20,7 @@
           "GrpcServices.dll": {}
         }
       },
-      "CloverHeap.POC.Lerna.Grpc.Protos/1.0.0": {
-        "dependencies": {
-          "Google.Protobuf": "3.13.0",
-          "Grpc.Core": "2.32.0"
-        },
+      "CloverHeap.POC.Self.Lerna.Grpc.Protos/1.0.0": {
         "runtime": {
           "lib/netstandard2.1/GrpcProtos.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -71,50 +67,6 @@
           "lib/netcoreapp3.0/Grpc.AspNetCore.Server.ClientFactory.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.32.0.0"
-          }
-        }
-      },
-      "Grpc.Core/2.32.0": {
-        "dependencies": {
-          "Grpc.Core.Api": "2.32.0",
-          "System.Memory": "4.5.3"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Grpc.Core.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.32.0.0"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/linux/native/libgrpc_csharp_ext.x64.so": {
-            "rid": "linux",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/linux/native/libgrpc_csharp_ext.x86.so": {
-            "rid": "linux",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/osx/native/libgrpc_csharp_ext.x64.dylib": {
-            "rid": "osx",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/osx/native/libgrpc_csharp_ext.x86.dylib": {
-            "rid": "osx",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win/native/grpc_csharp_ext.x64.dll": {
-            "rid": "win",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win/native/grpc_csharp_ext.x86.dll": {
-            "rid": "win",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1103,12 +1055,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CloverHeap.POC.Lerna.Grpc.Protos/1.0.0": {
+    "CloverHeap.POC.Self.Lerna.Grpc.Protos/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vqCyUGK2pgJzmzS/TkBSkjhKXawESHURqm2XkTvuu61IKwCqxzkTZrTlEES2Sf4RYgdEZRmBkohgYyhABAFlIA==",
-      "path": "cloverheap.poc.lerna.grpc.protos/1.0.0",
-      "hashPath": "cloverheap.poc.lerna.grpc.protos.1.0.0.nupkg.sha512"
+      "sha512": "sha512-Mlobx6jib+1q9aKH3sLvrzSxvlp/I6C+YQXnBmZl6N0gRakAAq/ki6Vs/ux2QxI1Xd5XCFPMgeBU8lYhxOe65Q==",
+      "path": "cloverheap.poc.self.lerna.grpc.protos/1.0.0",
+      "hashPath": "cloverheap.poc.self.lerna.grpc.protos.1.0.0.nupkg.sha512"
     },
     "Google.Protobuf/3.13.0": {
       "type": "package",
@@ -1137,13 +1089,6 @@
       "sha512": "sha512-blc2JYWdXY88nMHqu9ctm50Gfp9o50rw5zK+CwqbPA/BXiAisW3Pylnp9CanK9f/vOLESI5yhmK+eI67nD64pQ==",
       "path": "grpc.aspnetcore.server.clientfactory/2.32.0",
       "hashPath": "grpc.aspnetcore.server.clientfactory.2.32.0.nupkg.sha512"
-    },
-    "Grpc.Core/2.32.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-JDjz3zcOq9QTgC/xg6JnynSbe2CpyzVHWBqIOMYbbe/FmW+TCfkrwAw1mgO928Sa605dVmJOm0ByGgNd5YvX8Q==",
-      "path": "grpc.core/2.32.0",
-      "hashPath": "grpc.core.2.32.0.nupkg.sha512"
     },
     "Grpc.Core.Api/2.32.0": {
       "type": "package",

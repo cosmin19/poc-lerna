@@ -4,6 +4,7 @@ D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\bin\Debug\netcor
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.runtimeconfig.dev.json
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.dll
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.pdb
+D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\bin\Debug\netcoreapp3.1\GrpcProtos.dll
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Core.dll
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
@@ -16,9 +17,8 @@ D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\bin\Debug\netcor
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csprojAssemblyReference.cache
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.AssemblyInfoInputs.cache
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.AssemblyInfo.cs
+D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csproj.CoreCompileInputs.cache
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csproj.CopyComplete
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.dll
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.pdb
 D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.genruntimeconfig.cache
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\bin\Debug\netcoreapp3.1\GrpcProtos.dll
-D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csproj.CoreCompileInputs.cache

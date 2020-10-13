@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "GrpcClient/1.0.0": {
         "dependencies": {
-          "CloverHeap.POC.Lerna.Grpc.Protos": "1.0.0",
+          "CloverHeap.POC.Self.Lerna.Grpc.Protos": "1.0.0",
           "Google.Protobuf": "3.13.0",
           "Grpc": "2.32.0",
           "Grpc.Tools": "2.32.0"
@@ -17,11 +17,7 @@
           "GrpcClient.dll": {}
         }
       },
-      "CloverHeap.POC.Lerna.Grpc.Protos/1.0.0": {
-        "dependencies": {
-          "Google.Protobuf": "3.13.0",
-          "Grpc.Core": "2.32.0"
-        },
+      "CloverHeap.POC.Self.Lerna.Grpc.Protos/1.0.0": {
         "runtime": {
           "lib/netstandard2.1/GrpcProtos.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -112,12 +108,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CloverHeap.POC.Lerna.Grpc.Protos/1.0.0": {
+    "CloverHeap.POC.Self.Lerna.Grpc.Protos/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vqCyUGK2pgJzmzS/TkBSkjhKXawESHURqm2XkTvuu61IKwCqxzkTZrTlEES2Sf4RYgdEZRmBkohgYyhABAFlIA==",
-      "path": "cloverheap.poc.lerna.grpc.protos/1.0.0",
-      "hashPath": "cloverheap.poc.lerna.grpc.protos.1.0.0.nupkg.sha512"
+      "sha512": "sha512-Mlobx6jib+1q9aKH3sLvrzSxvlp/I6C+YQXnBmZl6N0gRakAAq/ki6Vs/ux2QxI1Xd5XCFPMgeBU8lYhxOe65Q==",
+      "path": "cloverheap.poc.self.lerna.grpc.protos/1.0.0",
+      "hashPath": "cloverheap.poc.self.lerna.grpc.protos.1.0.0.nupkg.sha512"
     },
     "Google.Protobuf/3.13.0": {
       "type": "package",
