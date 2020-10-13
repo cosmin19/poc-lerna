@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\GrpcProtos.csproj": {}
+  },
+  "projects": {
+    "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\GrpcProtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\GrpcProtos.csproj",
+        "projectName": "CloverHeap.POC.Lerna.Grpc.Protos",
+        "projectPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\GrpcProtos.csproj",
+        "packagesPath": "C:\\Users\\cosmi\\.nuget\\packages\\",
+        "outputPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cosmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\NuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.32.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

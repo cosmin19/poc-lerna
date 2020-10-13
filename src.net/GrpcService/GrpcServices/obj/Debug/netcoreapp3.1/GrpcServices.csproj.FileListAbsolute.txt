@@ -1,0 +1,8 @@
+D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcServices\bin\Debug\netcoreapp3.1\GrpcServices.deps.json
+D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcServices\bin\Debug\netcoreapp3.1\GrpcServices.dll
+D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcServices\bin\Debug\netcoreapp3.1\GrpcServices.pdb
+D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcServices\obj\Debug\netcoreapp3.1\GrpcServices.AssemblyInfoInputs.cache
+D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcServices\obj\Debug\netcoreapp3.1\GrpcServices.AssemblyInfo.cs
+D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcServices\obj\Debug\netcoreapp3.1\GrpcServices.dll
+D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcServices\obj\Debug\netcoreapp3.1\GrpcServices.pdb
+D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcServices\obj\Debug\netcoreapp3.1\GrpcServices.csproj.CoreCompileInputs.cache

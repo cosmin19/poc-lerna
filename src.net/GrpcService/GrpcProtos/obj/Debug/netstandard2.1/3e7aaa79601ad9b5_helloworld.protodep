@@ -1,0 +1,3 @@
+obj\Debug\netstandard2.1\Services/Helloworld.cs \
+obj\Debug\netstandard2.1\Services/HelloworldGrpc.cs: Common/models.proto\
+ Services/helloworld.proto

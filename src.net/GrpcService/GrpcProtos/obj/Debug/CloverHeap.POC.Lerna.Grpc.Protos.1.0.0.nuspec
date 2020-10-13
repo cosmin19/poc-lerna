@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CloverHeap.POC.Lerna.Grpc.Protos</id>
+    <version>1.0.0</version>
+    <authors>Cosmin Crisan</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Google.Protobuf" version="3.13.0" exclude="Build,Analyzers" />
+        <dependency id="Grpc.Core" version="2.32.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\CloverHeap\_develop\poc-lerna\src.net\GrpcService\GrpcProtos\bin\Debug\netstandard2.1\GrpcProtos.dll" target="lib\netstandard2.1\GrpcProtos.dll" />
+  </files>
+</package>

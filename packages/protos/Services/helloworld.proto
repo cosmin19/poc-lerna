@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcProtos.Services";
+
+package helloworld.service;
+
+import "Common/models.proto";
+
+service HelloWorld {
+
+	rpc GetMessage (helloworld.common.MessageRequest) returns (helloworld.common.MessageResponse);
+}

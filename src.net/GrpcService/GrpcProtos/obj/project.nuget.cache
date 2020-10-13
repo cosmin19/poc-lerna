@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "HCB1An/1CIH+nhuqI8oy7OcK9G+EtEGHNpvkt9KDPrpgfTzXvV2skxx4pajmhSzhLWWvW3v2LOXFGuQgaA10LA==",
+  "success": true,
+  "projectFilePath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\GrpcProtos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cosmi\\.nuget\\packages\\google.protobuf\\3.13.0\\google.protobuf.3.13.0.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\grpc.core\\2.32.0\\grpc.core.2.32.0.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\grpc.core.api\\2.32.0\\grpc.core.api.2.32.0.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\grpc.tools\\2.32.0\\grpc.tools.2.32.0.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

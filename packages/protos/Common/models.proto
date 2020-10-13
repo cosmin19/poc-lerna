@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcProtos.Common";
+
+package helloworld.common;
+
+message MessageRequest {
+	string name = 1;
+}
+
+message MessageResponse {
+	string message = 1;
+}

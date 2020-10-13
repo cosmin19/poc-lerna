@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcService\\GrpcService.csproj": {}
+  },
+  "projects": {
+    "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcCommon\\GrpcCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcCommon\\GrpcCommon.csproj",
+        "projectName": "GrpcCommon",
+        "projectPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcCommon\\GrpcCommon.csproj",
+        "packagesPath": "C:\\Users\\cosmi\\.nuget\\packages\\",
+        "outputPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cosmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Grpc.Core.Api": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\GrpcProtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\GrpcProtos.csproj",
+        "projectName": "GrpcProtos",
+        "projectPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\GrpcProtos.csproj",
+        "packagesPath": "C:\\Users\\cosmi\\.nuget\\packages\\",
+        "outputPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cosmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.32.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcServices\\GrpcServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcServices\\GrpcServices.csproj",
+        "projectName": "GrpcServices",
+        "projectPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcServices\\GrpcServices.csproj",
+        "packagesPath": "C:\\Users\\cosmi\\.nuget\\packages\\",
+        "outputPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cosmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcCommon\\GrpcCommon.csproj": {
+                "projectPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcCommon\\GrpcCommon.csproj"
+              },
+              "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\GrpcProtos.csproj": {
+                "projectPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcProtos\\GrpcProtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcService\\GrpcService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcService\\GrpcService.csproj",
+        "projectName": "GrpcService",
+        "projectPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcService\\GrpcService.csproj",
+        "packagesPath": "C:\\Users\\cosmi\\.nuget\\packages\\",
+        "outputPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cosmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcServices\\GrpcServices.csproj": {
+                "projectPath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcServices\\GrpcServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
