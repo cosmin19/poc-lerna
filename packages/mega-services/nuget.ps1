@@ -35,8 +35,10 @@ function ResolveDependecies() {
 	return $ProtoDependencies;
 }
 
-$ProtoDependencies = ResolveDependecies -dependency $ProtoDependenciesRecursiveFetch
-$ProtoDependencies = $ProtoDependencies | Sort-Object 'root', 'protoPath' | Get-Unique -AsString
+if($ProtoDependenciesRecursiveFetch.protoDependencies.length -gt 0) {
+	$ProtoDependencies = ResolveDependecies -dependency $ProtoDependenciesRecursiveFetch
+	$ProtoDependencies = $ProtoDependencies | Sort-Object 'root', 'protoPath' | Get-Unique -AsString
+}
 
 # Remove temporary external protofiles if exists
 Remove-Item "${PSScriptRoot}/${ProtosFolder}/external" -Recurse -ErrorAction Ignore
