@@ -1,5 +1,5 @@
 {
-	"name": "@cici/services",
+	"name": "@cici/mega-services",
 	"version": "1.0.0",
 	"license": "MIT",
 	"dependencies": {
@@ -7,7 +7,7 @@
 	},
 	"protoDependencies": [
 		{
-			"root": "common",
+			"root": "services",
 			"protoPath": "protos"
 		}
 	]

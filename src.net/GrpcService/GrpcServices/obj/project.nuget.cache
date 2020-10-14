@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "5hynHk7wwmg6ieZwJBUsu3yi+uUo2ZGhJ68HtMkXBgUOiYj2xFo49T+LozueY9LLTXlzJhES4f8J6Vgbo5LLFg==",
+  "dgSpecHash": "85At+IZ+s7DSOrXBnkXgOkheqV2tMq1bnHmnv2TjYzK+e7N31qm75kV3OZR3OZKvE4PKmEPwUIFuNhw6898ugw==",
   "success": true,
   "projectFilePath": "D:\\CloverHeap\\_develop\\poc-lerna\\src.net\\GrpcService\\GrpcServices\\GrpcServices.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cosmi\\.nuget\\packages\\cloverheap.poc.self.lerna.grpc.protos\\1.0.0\\cloverheap.poc.self.lerna.grpc.protos.1.0.0.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\cici.mega-services\\1.0.0\\cici.mega-services.1.0.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\google.protobuf\\3.13.0\\google.protobuf.3.13.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\grpc.aspnetcore\\2.32.0\\grpc.aspnetcore.2.32.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\grpc.aspnetcore.server\\2.32.0\\grpc.aspnetcore.server.2.32.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.32.0\\grpc.aspnetcore.server.clientfactory.2.32.0.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\grpc.core\\2.31.0\\grpc.core.2.31.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\grpc.core.api\\2.32.0\\grpc.core.api.2.32.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\grpc.net.client\\2.32.0\\grpc.net.client.2.32.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\grpc.net.clientfactory\\2.32.0\\grpc.net.clientfactory.2.32.0.nupkg.sha512",

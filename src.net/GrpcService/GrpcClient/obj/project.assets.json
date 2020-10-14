@@ -2,13 +2,17 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "CloverHeap.POC.Self.Lerna.Grpc.Protos/1.0.0": {
+      "cici.mega-services/1.0.0": {
         "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.13.0",
+          "Grpc.Core": "2.31.0"
+        },
         "compile": {
-          "lib/netstandard2.1/GrpcProtos.dll": {}
+          "lib/netstandard2.1/nuget.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/GrpcProtos.dll": {}
+          "lib/netstandard2.1/nuget.dll": {}
         }
       },
       "Google.Protobuf/3.13.0": {
@@ -109,15 +113,15 @@
     }
   },
   "libraries": {
-    "CloverHeap.POC.Self.Lerna.Grpc.Protos/1.0.0": {
-      "sha512": "Mlobx6jib+1q9aKH3sLvrzSxvlp/I6C+YQXnBmZl6N0gRakAAq/ki6Vs/ux2QxI1Xd5XCFPMgeBU8lYhxOe65Q==",
+    "cici.mega-services/1.0.0": {
+      "sha512": "BDanTTMH7DKfeGprAqjC+lYTUWAKVMsMuFHkSPYv6wASPqMZuycUg0mueAMH+ToQ5fv+s9sMAy3S9ZWgLjxFdQ==",
       "type": "package",
-      "path": "cloverheap.poc.self.lerna.grpc.protos/1.0.0",
+      "path": "cici.mega-services/1.0.0",
       "files": [
         ".nupkg.metadata",
-        "cloverheap.poc.self.lerna.grpc.protos.1.0.0.nupkg.sha512",
-        "cloverheap.poc.self.lerna.grpc.protos.nuspec",
-        "lib/netstandard2.1/GrpcProtos.dll"
+        "cici.mega-services.1.0.0.nupkg.sha512",
+        "cici.mega-services.nuspec",
+        "lib/netstandard2.1/nuget.dll"
       ]
     },
     "Google.Protobuf/3.13.0": {
@@ -302,10 +306,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CloverHeap.POC.Self.Lerna.Grpc.Protos >= 1.0.0",
       "Google.Protobuf >= 3.13.0",
       "Grpc >= 2.32.0",
-      "Grpc.Tools >= 2.32.0"
+      "Grpc.Tools >= 2.32.0",
+      "cici.mega-services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -346,10 +350,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "CloverHeap.POC.Self.Lerna.Grpc.Protos": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
           "Google.Protobuf": {
             "target": "Package",
             "version": "[3.13.0, )"
@@ -363,6 +363,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.32.0, )"
+          },
+          "cici.mega-services": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CloverHeap.POC.Self.Lerna.Grpc.Protos" Version="1.0.0" />
+    <!--<PackageReference Include="cici.common" Version="1.0.0" />-->
+    <!--<PackageReference Include="cici.common" Version="1.0.1" />-->
+    <!--<PackageReference Include="cici.services" Version="1.0.0"-->
+    <PackageReference Include="cici.mega-services" Version="1.0.0" />
     <PackageReference Include="Grpc" Version="2.32.0" />
     <PackageReference Include="Google.Protobuf" Version="3.13.0" />
     <PackageReference Include="Grpc.Tools" Version="2.32.0">

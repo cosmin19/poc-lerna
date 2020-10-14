@@ -39,10 +39,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "CloverHeap.POC.Self.Lerna.Grpc.Protos": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
             "Google.Protobuf": {
               "target": "Package",
               "version": "[3.13.0, )"
@@ -56,6 +52,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.32.0, )"
+            },
+            "cici.mega-services": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

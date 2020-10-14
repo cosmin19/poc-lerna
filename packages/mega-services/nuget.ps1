@@ -10,16 +10,42 @@ $OutputLanguage = "csharp"
 # Read from package.json PackageName, Version, ProtoDependencies
 $jsonObject = Get-Content -Raw -Path "${PSScriptRoot}/package.json" | ConvertFrom-Json
 $ProtoDependencies = $jsonObject.protoDependencies
+$ProtoDependenciesRecursiveFetch = $jsonObject.protoDependencies
 $PackageVersion = $jsonObject.version
 #Replace invalid characters for nuget package name
 $PackageName = $jsonObject.name -Replace "@", '' -Replace "/", '.'
+
+# Add recursive dependencies to array
+function ResolveDependecies() {
+	param
+	(
+		[Parameter(Mandatory = $true)]
+		[object[]]$dependency
+	)
+
+	for ($i = 0; $i -lt $dependency.length; $i++) {
+		$protoDep = $dependency[$i]
+		$protoRoot = $protoDep.root
+		$tempJsonObject = Get-Content -Raw -Path "${RootPath}/${protoRoot}/package.json" | ConvertFrom-Json
+		$ProtoDependencies = $ProtoDependencies + $tempJsonObject.protoDependencies
+		if($tempJsonObject.protoDependencies.length -gt 0) {
+			$ProtoDependencies = ResolveDependecies -dependency $tempJsonObject.protoDependencies
+		}
+	}
+	return $ProtoDependencies;
+}
+
+$ProtoDependencies = ResolveDependecies -dependency $ProtoDependenciesRecursiveFetch
+$ProtoDependencies = $ProtoDependencies | Sort-Object 'root', 'protoPath' | Get-Unique -AsString
 
 # Remove temporary external protofiles if exists
 Remove-Item "${PSScriptRoot}/${ProtosFolder}/external" -Recurse -ErrorAction Ignore
 # For each proto dependency, copy in current folder in order to prepare the nuget pack
 for ($i = 0; $i -lt $ProtoDependencies.length; $i++) {
 	$protoDep = $ProtoDependencies[$i]
-	$protoDepPath = "${protoDep.root}/${protoDep.protoPath}";
+	$protoRoot = $protoDep.root
+	$protoPath = $protoDep.protoPath
+	$protoDepPath = "${protoRoot}/${protoPath}";
 	Copy-Item -Path "${RootPath}/${protoDepPath}" -Destination "${PSScriptRoot}/${ProtosFolder}/external/${protoDepPath}" -Recurse
 }
 

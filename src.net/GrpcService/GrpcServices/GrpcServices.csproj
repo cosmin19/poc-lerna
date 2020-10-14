@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CloverHeap.POC.Self.Lerna.Grpc.Protos" Version="1.0.0" />
+    <!--<PackageReference Include="cici.services" Version="1.0.0" />-->
+    <PackageReference Include="cici.mega-services" Version="1.0.0" />
     <PackageReference Include="Grpc.AspNetCore" Version="2.32.0" />
     <PackageReference Include="Grpc.Core.Api" Version="2.32.0" />
     <PackageReference Include="Grpc.Net.Client" Version="2.32.0" />

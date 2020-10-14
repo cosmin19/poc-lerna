@@ -3,6 +3,7 @@ using System;
 using System.Threading.Tasks;
 using GrpcProtos.Services;
 using GrpcProtos.Common;
+//using GrpcProtos.Common;
 
 namespace GrpcClient
 {
@@ -15,7 +16,7 @@ namespace GrpcClient
 
             Channel channel = new Channel("127.0.0.1:5000", ChannelCredentials.Insecure);
 
-            var client = new HelloWorld.HelloWorldClient(channel);
+            var client = new MegaHelloWorld.MegaHelloWorldClient(channel);
             var request = new MessageRequest
             {
                 Name = "King Julien"
